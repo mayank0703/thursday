@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  /* style.css */
+
+/* Center the entire form on the page and set a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the form as a clean white card */
+
+
+/* Add spacing between each input group */
+div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the text labels */
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Style the text boxes and dropdown menus */
+input[type="text"],
+input[type="date"],
+select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Add a blue highlight when the user clicks inside an input */
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Style the submit button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+/* Make the button darker when hovered over */
+button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+<body>
+  <form action="backend.php">
+    <!-- Form fields go here -->
+  </form>
+  <dev>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  </dev>
+  <dev>
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="date" id="dateOfBirth" name="date of birth">
+  </dev>
+  <div>
+    <label for="gender">Gender</label>
+    <select id="gender" required>
+      <option value="" disabled selected>Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div>
+    <button onclick="window.location.href='https://example.com';" type="submit">Submit</button>
+  </div>
+
+</body>
+
+</html>

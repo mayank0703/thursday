@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Explanation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Forms Explanation</h1>
+    </header>
+    <main>
+        <section>
+
+            <dev>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="name"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="password"><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="plan">Plan:</label>
+                    <input type="radio" id="basic" name="plan" value="basic" required>
+                    <label for="basic">Basic</label>
+                    <input type="radio" id="premium" name="plan" value="premium" required>
+                    <label for="premium">Premium</label><br><br>
+                    <!--submit form-->
+                    <input onclick="submitForm()" type="submit" >
+                </form>
+                
+            </dev>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Forms. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
