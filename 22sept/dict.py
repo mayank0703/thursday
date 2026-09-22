@@ -45,7 +45,18 @@ else:
 
 '''total = 0
 for i in range(1,6):
-    total +=i
-    print(total)'''
-
+    total = total + i
+print(total)
+'''
 #count in given string number of values HW
+'''
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+count = 0
+input_string = input("Enter a string: ")
+for char in input_string:
+    if char.lower() in vowels:
+        count += 1
+print("Number of vowels in the string:", count)
+'''
+#homework for counting number of vowels in given string
