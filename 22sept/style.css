@@ -1,0 +1,20 @@
+h1{
+    color: #6710e9;
+}
+p{
+    color: #eb4b4b;    
+}
+#selector{
+    color: #f9c74f;
+}
+h2{
+    color: #90be6d; border: 2px solid #90be6d; padding: 10px; border-radius: 5px;
+    
+}
+h3{
+    color: #f8961e; border: 2px solid #f8961e; padding: 10px; border-radius: 5px;
+    background-color: #f9c74f;
+}
+h4{
+    color: #f9c74f; border: 2px solid #f9c74f; padding: 10px; border-radius: 5px;
+}
